@@ -1,0 +1,89 @@
+/* reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 1fr;
+    width: 1fr;
+}
+
+.lineardarkness {
+    position: absolute;
+    width: 1440px;
+    height: 900px;
+    left: 0px;
+    top: 3px;
+    background: linear-gradient(90deg, rgba(0, 0, 150, 0.05) 38.27%, rgba(0, 0, 0, 0) 44.7%, rgba(0, 0, 0, 0.0555556) 73.59%, rgba(0, 0, 0, 0.25) 73.62%, rgba(0, 0, 0, 0.0025) 73.65%, rgba(0, 0, 0, 0.25) 86.47%, rgba(0, 0, 0, 0) 107.35%);
+}
+
+.blueshadow {
+    position: absolute;
+    width: 977px;
+    height: 897px;
+    left: -175px;
+    top: 3px;
+}
+
+.logo {
+    position: absolute;
+    width: 149px;
+    height: 50px;
+    left: 95px;
+    top: 63px;
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 62px;
+    color: #FF5C00;
+}
+
+.menunav {
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 31px;
+    color: #ffffff;
+    position: absolute;
+    width: 660px;
+    height: 30px;
+    left: 313px;
+    top: 88px;
+}
+
+.menu {
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 313px;
+    top: 88px;
+}
+
+.contactus {
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    left: 438px;
+    top: 88px;
+}
+
+.aboutus {
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    left: 613px;
+    top: 88px;
+}
+
+.socialmedias {
+    position: absolute;
+    width: 185px;
+    height: 30px;
+    left: 788px;
+    top: 88px;
+}
